@@ -1,9 +1,7 @@
+import { Fragment } from 'react';
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Zoomit Website</h1>
-    </div>
-  );
+  return <Fragment></Fragment>;
 }
 
 export default App;
