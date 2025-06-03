@@ -2,8 +2,8 @@ import styles from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <nav>
-      <a href="#" class="logo">
+    <nav className={styles.navbar}>
+      <a href="#" className={styles.logo}>
         <svg
           width="106"
           height="20"
