@@ -37,6 +37,8 @@ body {
 body {
   font-family: vazir;
   font-weight: 400;
+  color: var(--color-primary);
+  background-color: var(--color-background);
 }
 
 img {
