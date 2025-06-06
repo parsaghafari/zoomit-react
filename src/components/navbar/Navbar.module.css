@@ -20,6 +20,12 @@
 .nav_link {
   padding: 0.3rem;
   margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav_link svg {
+  padding-left: 0.5rem;
 }
 
 .nav_link:hover {
