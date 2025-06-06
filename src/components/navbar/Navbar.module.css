@@ -48,6 +48,11 @@
 
 .search_btn i {
   margin-left: 0.5rem;
+  padding: 5px;
+  font-size: 0.7rem;
+  color: var(--color-dark);
+  background-color: var(--color-primary);
+  border-radius: 50%;
 }
 
 .account {
