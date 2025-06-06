@@ -37,3 +37,8 @@
 .left_side {
   margin-right: auto;
 }
+
+.search_btn {
+  display: flex;
+  align-items: center;
+}

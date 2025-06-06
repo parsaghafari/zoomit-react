@@ -88,7 +88,7 @@ function Navbar() {
           </a>
         </li>
         <li className={styles.nav_item}>
-          <button className="search-btn">
+          <button className={styles.search_btn}>
             <FontAwesomeIcon icon={faMagnifyingGlass} />
             <span>جستجو</span>
           </button>
