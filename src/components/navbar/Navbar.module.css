@@ -26,8 +26,8 @@
   font-size: 0.85rem;
 }
 
-.nav_link svg {
-  padding-left: 0.5rem;
+.nav_link i {
+  margin-left: 0.5rem;
 }
 
 .nav_link:hover {
@@ -41,4 +41,8 @@
 .search_btn {
   display: flex;
   align-items: center;
+}
+
+.search_btn i {
+  margin-left: 0.5rem;
 }
