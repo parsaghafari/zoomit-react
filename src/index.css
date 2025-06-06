@@ -2,7 +2,7 @@
 :root {
   --color-primary: #e8e2d8;
   --color-secondary: #ff6961;
-  --color-background: #202425;
+  --color-dark: #202425;
 }
 
 @font-face {
@@ -38,7 +38,7 @@ body {
   font-family: vazir;
   font-weight: 400;
   color: var(--color-primary);
-  background-color: var(--color-background);
+  background-color: var(--color-dark);
 }
 
 img {
