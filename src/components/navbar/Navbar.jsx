@@ -1,17 +1,4 @@
-import {
-  faBars,
-  faBook,
-  faCircleHalfStroke,
-  faCircleUser,
-  faComments,
-  faMagnifyingGlass,
-  faMicrochip,
-  faMugHot,
-  faPlus,
-  faVideo,
-} from '@fortawesome/free-solid-svg-icons';
 import styles from './Navbar.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
   return (
@@ -47,49 +34,49 @@ function Navbar() {
       <ul className={styles.nav_list}>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faMugHot} />
+            <i className="fa-solid fa-mug-hot"></i>
             زومیت من
           </a>
         </li>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faBars} />
+            <i className="fa-solid fa-bars"></i>
             محصولات
           </a>
         </li>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faMicrochip} />
+            <i className="fa-solid fa-microchip"></i>
             فناوری
           </a>
         </li>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faBook} />
+            <i className="fa-solid fa-book"></i>
             راهنمای خرید
           </a>
         </li>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faComments} />
+            <i className="fa-solid fa-comments"></i>
             بررسی
           </a>
         </li>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faVideo} />
+            <i className="fa-solid fa-video"></i>
             ویدئو
           </a>
         </li>
         <li className={styles.nav_item}>
           <a href="#" className={styles.nav_link}>
-            <FontAwesomeIcon icon={faPlus} />
+            <i className="fa-solid fa-plus"></i>
             زومیت
           </a>
         </li>
         <li className={styles.nav_item}>
           <button className={styles.search_btn}>
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
+            <i className="fa-solid fa-magnifying-glass"></i>
             <span>جستجو</span>
           </button>
         </li>
@@ -97,10 +84,10 @@ function Navbar() {
 
       <div className={styles.left_side}>
         <button className={styles.theme_change}>
-          <FontAwesomeIcon icon={faCircleHalfStroke} />
+          <i className="fa-solid fa-circle-half-stroke"></i>
         </button>
         <a href="#" className={styles.account}>
-          <FontAwesomeIcon icon={faCircleUser} />
+          <i className="fa-solid fa-circle-user"></i>
         </a>
       </div>
     </nav>
