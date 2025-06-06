@@ -54,6 +54,14 @@ ul {
   list-style-type: none;
 }
 
+button {
+  background: none;
+  border: 0;
+  font-size: 1rem;
+  font-family: vazir;
+  color: var(--color-primary);
+}
+
 button:hover {
   cursor: pointer;
 }
