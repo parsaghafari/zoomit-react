@@ -1,0 +1,18 @@
+.top_articles {
+  display: flex;
+}
+
+.top_articles > a {
+  position: relative;
+  overflow: hidden;
+}
+
+.article_title {
+  position: absolute;
+  bottom: 0;
+}
+
+.top_articles img {
+  object-fit: cover;
+  height: 100%;
+}
