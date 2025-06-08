@@ -1,0 +1,67 @@
+/* Variables */
+:root {
+  --color-primary: #e8e2d8;
+  --color-secondary: #ff6961;
+  --color-dark: #202425;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url('../src/assets/fonts/Vazir.ttf') format('truetype'),
+    url('../src/assets/fonts/Vazir.woff') format('woff'),
+    url('../src/assets/fonts/Vazir-Bold.ttf') format('truetype'),
+    url('../src/assets/fonts/Vazir-Bold.woff') format('woff'),
+    url('../src/assets/fonts/Vazir-Thin.ttf') format('truetype'),
+    url('../src/assets/fonts/Vazir-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: sahel;
+  src: url('../src/assets/fonts/Sahel.ttf') format('truetype'),
+    url('../src/assets/fonts/Sahel.woff') format('woff'),
+    url('../src/assets/fonts/Sahel-Bold.ttf') format('truetype'),
+    url('../src/assets/fonts/Sahel-Bold.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: vazir;
+  font-weight: 400;
+  color: var(--color-primary);
+  background-color: var(--color-dark);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background: none;
+  border: 0;
+  font-size: 1rem;
+  font-family: vazir;
+  color: var(--color-primary);
+}
+
+button:hover {
+  cursor: pointer;
+}
