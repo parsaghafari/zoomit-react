@@ -25,8 +25,8 @@ function SecondaryNav() {
             navigation={true}
             modules={[Navigation, Scrollbar]}
             className="mySwiper"
-            slidesPerView={'7'}
-            spaceBetween={30}
+            slidesPerView={'8'}
+            // spaceBetween={15}
           >
             <SwiperSlide>
               <a href="#">
