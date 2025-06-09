@@ -3,6 +3,7 @@
   --color-primary: #e8e2d8;
   --color-secondary: #ff6961;
   --color-dark: #202425;
+  --color-darker: #1d1f20;
 }
 
 @font-face {
@@ -69,4 +70,9 @@ button:hover {
 .section-container {
   max-width: 1300px;
   margin: auto;
+}
+
+section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
