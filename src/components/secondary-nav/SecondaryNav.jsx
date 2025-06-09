@@ -1,8 +1,10 @@
+import styles from './SecondaryNav.module.css';
+
 function SecondaryNav() {
   return (
-    <section>
+    <section className={styles.secondary_nav}>
       <div className="section-container">
-        <div className="right-side">
+        <div className={styles.right_side}>
           <h3>با چشم باز خرید کنید</h3>
           <p>زومیت شما را برای انتخاب بهتر و خرید ارزان‌تر راهنمایی می‌کند</p>
           <a href="#">
@@ -10,7 +12,7 @@ function SecondaryNav() {
             <i className="fa-solid fa-arrow-left"></i>
           </a>
         </div>
-        <div className="left-side">
+        <div className={styles.left_side}>
           <button className="scroll-right">
             <i className="fa-solid fa-angle-right"></i>
           </button>

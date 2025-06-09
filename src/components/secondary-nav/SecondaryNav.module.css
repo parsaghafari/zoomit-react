@@ -1,0 +1,18 @@
+.secondary_nav {
+  background-color: var(--color-darker);
+}
+
+.secondary_nav .section-container {
+  display: flex;
+  align-items: center;
+}
+
+.right_side {
+  width: 30%;
+  padding: 0.5rem;
+}
+
+.left_side {
+  width: 70%;
+  padding: 0.5rem;
+}
