@@ -1,4 +1,6 @@
 import styles from './SecondaryNav.module.css';
+import Swiper from 'swiper';
+import 'swiper/css';
 
 function SecondaryNav() {
   return (
