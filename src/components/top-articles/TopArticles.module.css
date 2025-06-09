@@ -6,6 +6,7 @@
 .top_articles > a {
   position: relative;
   overflow: hidden;
+  flex: 1;
 }
 
 .article_title {
