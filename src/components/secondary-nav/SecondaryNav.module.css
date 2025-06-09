@@ -2,7 +2,7 @@
   background-color: var(--color-darker);
 }
 
-.secondary_nav .section-container {
+.secondary_nav > div {
   display: flex;
   align-items: center;
 }
@@ -15,4 +15,21 @@
 .left_side {
   width: 70%;
   padding: 0.5rem;
+}
+
+.left_side a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_side a img {
+  display: block;
+  height: 70%;
+}
+
+.left_side a span {
+  display: block;
+  height: 20%;
 }
