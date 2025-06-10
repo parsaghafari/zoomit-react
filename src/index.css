@@ -4,6 +4,8 @@
   --color-secondary: #ff6961;
   --color-dark: #202425;
   --color-darker: #1d1f20;
+  --swiper-navigation-size: 30px;
+  --swiper-navigation-color: red;
 }
 
 @font-face {
