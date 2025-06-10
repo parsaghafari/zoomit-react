@@ -1,0 +1,6 @@
+.editors_choice .content > h2 {
+  font-size: 1rem;
+  padding-right: 0.8rem;
+  border-right: 4px solid red;
+  margin-bottom: 2rem;
+}

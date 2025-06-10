@@ -2,9 +2,9 @@ import styles from './EditorsChoice.module.css';
 
 function EditorsChoice() {
   return (
-    <section className="editors-choice">
+    <section className={styles.editors_choice}>
       <div className="section-container">
-        <div class="content">
+        <div className={styles.content}>
           <h2>پیشنهاد سردبیر</h2>
           <div className="type">
             <button>مطلب</button>
