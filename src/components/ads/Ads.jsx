@@ -1,4 +1,6 @@
 import styles from './Ads.module.css';
+import ad1 from '../../assets/images/ads/shatel-ad.gif';
+import ad2 from '../../assets/images/ads/arizzo-ad.gif';
 
 function Ads() {
   return (
@@ -11,18 +13,12 @@ function Ads() {
       </div>
       <div className={styles.ads_right}>
         <a href="#">
-          <img
-            src="assets/images/shatel-ad.gif"
-            alt="shatel advertisement gif"
-          />
+          <img src={ad1} alt="shatel advertisement gif" />
         </a>
       </div>
       <div className={styles.ads_left}>
         <a href="#">
-          <img
-            src="assets/images/arizzo-ad.gif"
-            alt="arizzo advertisement gif"
-          />
+          <img src={ad2} alt="arizzo advertisement gif" />
         </a>
       </div>
     </div>
