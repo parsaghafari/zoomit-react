@@ -5,3 +5,9 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
+
+.hr_text {
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  grid-column: 1 / 3;
+}
