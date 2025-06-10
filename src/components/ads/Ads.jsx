@@ -1,8 +1,6 @@
 import styles from './Ads.module.css';
-import ad1 from '../../assets/images/ads/shatel-ad.gif';
-import ad2 from '../../assets/images/ads/arizzo-ad.gif';
 
-function Ads() {
+function Ads(props) {
   return (
     <div className={styles.ads}>
       <div className={styles.hr_text}>
@@ -13,12 +11,12 @@ function Ads() {
       </div>
       <div className={styles.ads_right}>
         <a href="#">
-          <img src={ad1} alt="shatel advertisement gif" />
+          <img src={props.firstSrc} alt={props.firstAlt} />
         </a>
       </div>
       <div className={styles.ads_left}>
         <a href="#">
-          <img src={ad2} alt="arizzo advertisement gif" />
+          <img src={props.secondSrc} alt={props.secondAlt} />
         </a>
       </div>
     </div>
