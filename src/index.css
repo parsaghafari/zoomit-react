@@ -78,3 +78,22 @@ section {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+.btn {
+  padding: 0.4rem 1rem;
+  background: none;
+  border: 1px solid #464545;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-family: vazir;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.btn.selected {
+  background: #464545;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
