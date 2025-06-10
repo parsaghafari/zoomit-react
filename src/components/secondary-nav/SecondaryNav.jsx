@@ -1,9 +1,9 @@
-import styles from './SecondaryNav.module.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import { Navigation, Scrollbar } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import styles from './SecondaryNav.module.css';
 
 function SecondaryNav() {
   return (
