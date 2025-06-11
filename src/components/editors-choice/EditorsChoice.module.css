@@ -1,0 +1,14 @@
+.editors_choice .content > h2 {
+  font-size: 1.2rem;
+  padding-right: 0.8rem;
+  border-right: 4px solid red;
+  margin-bottom: 1.5rem;
+}
+
+.type {
+  margin-bottom: 1.5rem;
+}
+
+.type button {
+  margin-left: 1.5rem;
+}
