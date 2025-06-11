@@ -12,3 +12,79 @@
 .type button {
   margin-left: 1.5rem;
 }
+
+.card {
+  height: 350px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1.2rem;
+  background: #292c2d;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card_picture {
+  height: 60%;
+  flex-shrink: 0;
+}
+
+.card_picture img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_title {
+  display: block;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 2;
+  height: 22%;
+  overflow-y: auto;
+  margin-bottom: 0.5rem;
+}
+
+.card .info {
+  padding: 0.5rem;
+  position: relative;
+  height: 13%;
+}
+
+.card .c_count,
+.card .when {
+  font-size: 0.8rem;
+}
+
+.card .when {
+  margin-right: 1rem;
+}
+
+.card .info i {
+  padding-left: 0.4rem;
+}
+
+.card .info .actions {
+  position: absolute;
+  left: 0;
+  padding: 0.5rem;
+}
+
+.swiper {
+  padding: 1rem 0;
+}
+
+.card_title::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+.card_title::-webkit-scrollbar-track {
+  background-color: #464545;
+  border-radius: 0.4rem;
+}
+
+.card_title::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 0.4rem;
+}

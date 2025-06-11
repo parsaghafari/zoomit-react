@@ -25,97 +25,97 @@ function EditorsChoice() {
             }}
             navigation={true}
             modules={[Navigation, Scrollbar]}
-            className="editors-choice-swiper"
-            slidesPerView={'3'}
+            className={styles.swiper}
+            slidesPerView={4}
           >
             <SwiperSlide>
-              <div className="card">
-                <a href="#" className="card-picture">
+              <div className={styles.card}>
+                <a href="#" className={styles.card_picture}>
                   <img src={articleImg1} alt="google analytics" />
                 </a>
-                <a href="#" className="card-title">
+                <a href="#" className={styles.card_title}>
                   <h4>تحریم کاربران ایرانی توسط گوگل؛ صدای پای ترامپ می‌آید</h4>
                 </a>
-                <div className="info">
-                  <span className="c-count">
+                <div className={styles.info}>
+                  <span className={styles.c_count}>
                     <i className="fa-regular fa-comment"></i> 115
                   </span>
-                  <span className="when">
+                  <span className={styles.when}>
                     <i className="fa-regular fa-calendar"></i> 2 روز پیش
                   </span>
-                  <button className="actions">
+                  <button className={styles.actions}>
                     <i className="fa-solid fa-ellipsis"></i>
                   </button>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
-                <a href="#" className="card-picture">
+              <div className={styles.card}>
+                <a href="#" className={styles.card_picture}>
                   <img
                     src={articleImg2}
                     alt="asus blocking iranian access to website"
                   />
                 </a>
-                <a href="#" className="card-title">
+                <a href="#" className={styles.card_title}>
                   <h4>
                     دسترسی کاربران ایرانی به وب‌سایت و دانلودسنتر ایسوس مسدود شد
                     [برخی ISP-ها با تغییر DNS دسترسی را فراهم کردند]
                   </h4>
                 </a>
-                <div className="info">
-                  <span className="c-count">
+                <div className={styles.info}>
+                  <span className={styles.c_count}>
                     <i className="fa-regular fa-comment"></i> 200
                   </span>
-                  <span className="when">
+                  <span className={styles.when}>
                     <i className="fa-regular fa-calendar"></i>5 دقیقه پیش
                   </span>
-                  <button className="actions">
+                  <button className={styles.actions}>
                     <i className="fa-solid fa-ellipsis"></i>
                   </button>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
-                <a href="#" className="card-picture">
+              <div className={styles.card}>
+                <a href="#" className={styles.card_picture}>
                   <img src={articleImg3} alt="some alienware laptops" />
                 </a>
-                <a href="#" className="card-title">
+                <a href="#" className={styles.card_title}>
                   <h4>
                     بهترین لپ‌تاپ‌های نمایشگاه CES 2025؛ از محصولی با نمایشگر
                     کشویی تا لپ‌تاپ بسیار باریک ریزر
                   </h4>
                 </a>
-                <div className="info">
-                  <span className="c-count">
+                <div className={styles.info}>
+                  <span className={styles.c_count}>
                     <i className="fa-regular fa-comment"></i> 50
                   </span>
-                  <span className="when">
+                  <span className={styles.when}>
                     <i className="fa-regular fa-calendar"></i>1 روز پیش
                   </span>
-                  <button className="actions">
+                  <button className={styles.actions}>
                     <i className="fa-solid fa-ellipsis"></i>
                   </button>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="card">
-                <a href="#" className="card-picture">
+              <div className={styles.card}>
+                <a href="#" className={styles.card_picture}>
                   <img src={articleImg4} alt="samsung galaxy smartphones" />
                 </a>
-                <a href="#" className="card-title">
+                <a href="#" className={styles.card_title}>
                   <h4>قیمت سری گلکسی S25 لو رفت؛ هر ۴ گوشی گران‌ می‌شوند</h4>
                 </a>
-                <div className="info">
-                  <span className="c-count">
+                <div className={styles.info}>
+                  <span className={styles.c_count}>
                     <i className="fa-regular fa-comment"></i> 150
                   </span>
-                  <span className="when">
+                  <span className={styles.when}>
                     <i className="fa-regular fa-calendar"></i>3 روز پیش
                   </span>
-                  <button className="actions">
+                  <button className={styles.actions}>
                     <i className="fa-solid fa-ellipsis"></i>
                   </button>
                 </div>
