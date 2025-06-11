@@ -1,3 +1,8 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+import { Navigation, Scrollbar } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './EditorsChoice.module.css';
 import articleImg1 from '../../assets/images/editors-choice/google-analytics.webp';
 import articleImg2 from '../../assets/images/editors-choice/asus-blocked-iranian-access.webp';
@@ -14,11 +19,16 @@ function EditorsChoice() {
             <button className="btn selected">مطلب</button>
             <button className="btn">ویدیو</button>
           </div>
-          <div className="slider-container">
-            <button className="scroll-right">
-              <i className="fa-solid fa-angle-right"></i>
-            </button>
-            <div className="slider">
+          <Swiper
+            scrollbar={{
+              hide: true,
+            }}
+            navigation={true}
+            modules={[Navigation, Scrollbar]}
+            className="editors-choice-swiper"
+            slidesPerView={'3'}
+          >
+            <SwiperSlide>
               <div className="card">
                 <a href="#" className="card-picture">
                   <img src={articleImg1} alt="google analytics" />
@@ -38,6 +48,8 @@ function EditorsChoice() {
                   </button>
                 </div>
               </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <div className="card">
                 <a href="#" className="card-picture">
                   <img
@@ -63,6 +75,8 @@ function EditorsChoice() {
                   </button>
                 </div>
               </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <div className="card">
                 <a href="#" className="card-picture">
                   <img src={articleImg3} alt="some alienware laptops" />
@@ -85,6 +99,8 @@ function EditorsChoice() {
                   </button>
                 </div>
               </div>
+            </SwiperSlide>
+            <SwiperSlide>
               <div className="card">
                 <a href="#" className="card-picture">
                   <img src={articleImg4} alt="samsung galaxy smartphones" />
@@ -104,11 +120,8 @@ function EditorsChoice() {
                   </button>
                 </div>
               </div>
-            </div>
-            <button className="scroll-left">
-              <i className="fa-solid fa-angle-left"></i>
-            </button>
-          </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>
