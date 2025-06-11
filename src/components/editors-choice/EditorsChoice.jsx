@@ -1,4 +1,8 @@
 import styles from './EditorsChoice.module.css';
+import articleImg1 from '../../assets/images/editors-choice/google-analytics.webp';
+import articleImg2 from '../../assets/images/editors-choice/asus-blocked-iranian-access.webp';
+import articleImg3 from '../../assets/images/editors-choice/dell-ces-2025-alienware-area-51-laptop.webp';
+import articleImg4 from '../../assets/images/editors-choice/samsung_galaxy_s24.webp';
 
 function EditorsChoice() {
   return (
@@ -17,10 +21,7 @@ function EditorsChoice() {
             <div className="slider">
               <div className="card">
                 <a href="#" className="card-picture">
-                  <img
-                    src="assets/images/blog/google-analytics.webp"
-                    alt="google analytics"
-                  />
+                  <img src={articleImg1} alt="google analytics" />
                 </a>
                 <a href="#" className="card-title">
                   <h4>تحریم کاربران ایرانی توسط گوگل؛ صدای پای ترامپ می‌آید</h4>
@@ -40,7 +41,7 @@ function EditorsChoice() {
               <div className="card">
                 <a href="#" className="card-picture">
                   <img
-                    src="assets/images/blog/asus-blocked-iranian-access.webp"
+                    src={articleImg2}
                     alt="asus blocking iranian access to website"
                   />
                 </a>
@@ -64,10 +65,7 @@ function EditorsChoice() {
               </div>
               <div className="card">
                 <a href="#" className="card-picture">
-                  <img
-                    src="assets/images/blog/dell-ces-2025-alienware-area-51-laptop.webp"
-                    alt="some alienware laptops"
-                  />
+                  <img src={articleImg3} alt="some alienware laptops" />
                 </a>
                 <a href="#" className="card-title">
                   <h4>
@@ -89,10 +87,7 @@ function EditorsChoice() {
               </div>
               <div className="card">
                 <a href="#" className="card-picture">
-                  <img
-                    src="assets/images/blog/samsung_galaxy_s24.webp"
-                    alt="samsung galaxy smartphones"
-                  />
+                  <img src={articleImg4} alt="samsung galaxy smartphones" />
                 </a>
                 <a href="#" className="card-title">
                   <h4>قیمت سری گلکسی S25 لو رفت؛ هر ۴ گوشی گران‌ می‌شوند</h4>
