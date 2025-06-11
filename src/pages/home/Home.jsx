@@ -5,6 +5,7 @@ import SecondaryNav from '../../components/secondary-nav/SecondaryNav';
 import Ads from '../../components/ads/Ads';
 import ad1 from '../../assets/images/ads/shatel-ad.gif';
 import ad2 from '../../assets/images/ads/arizzo-ad.gif';
+import EditorsChoice from '../../components/editors-choice/EditorsChoice';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
           secondAlt={'arizzo advertisement gif'}
         />
       </div>
+      <EditorsChoice />
     </Fragment>
   );
 }
