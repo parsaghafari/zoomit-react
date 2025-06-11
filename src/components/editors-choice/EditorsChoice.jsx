@@ -6,9 +6,9 @@ function EditorsChoice() {
       <div className="section-container">
         <div className={styles.content}>
           <h2>پیشنهاد سردبیر</h2>
-          <div className="type">
-            <button>مطلب</button>
-            <button>ویدیو</button>
+          <div className={styles.type}>
+            <button className="btn selected">مطلب</button>
+            <button className="btn">ویدیو</button>
           </div>
           <div className="slider-container">
             <button className="scroll-right">
