@@ -26,7 +26,7 @@ function LatestVideos() {
         navigation={true}
         modules={[Navigation, Scrollbar]}
         className={styles.swiper}
-        spaceBetween={20}
+        spaceBetween={30}
         slidesPerView={2}
       >
         <SwiperSlide>
