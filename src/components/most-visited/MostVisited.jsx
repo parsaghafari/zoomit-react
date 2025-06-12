@@ -14,7 +14,7 @@ function MostVisited() {
             سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
           </h4>
           <img src={img1} alt="metal ring in kenya" />
-          <div className={styles.tme_date}>
+          <div className={styles.time_date}>
             <span>
               <i className="fa-regular fa-clock"></i> 10&prime; مطالعه
             </span>

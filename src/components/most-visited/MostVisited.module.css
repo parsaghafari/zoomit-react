@@ -5,10 +5,78 @@
   margin-bottom: 2rem;
 }
 
-.grid-container {
+.grid_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   height: 700px;
   gap: 1rem;
+}
+
+.grid_container > a {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.grid_container > a:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.grid_container > a::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.grid_container > a > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid_container .time_date {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.grid_container > a:first-child .time_date {
+  padding: 1.5rem;
+}
+
+.grid_container > a:not(:first-child) .time_date {
+  padding: 0.6rem;
+}
+
+.grid_container > a > h4 {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  font-family: sahel;
+}
+
+.grid_container > a:first-child h4 {
+  font-size: 1.2rem;
+  top: 40%;
+  padding: 1.5rem;
+}
+
+.grid_container > a:not(:first-child) h4 {
+  padding: 1rem;
+  top: 25%;
+}
+
+.grid_container .time_date span:nth-child(2) i {
+  padding-left: 0.5rem;
 }
