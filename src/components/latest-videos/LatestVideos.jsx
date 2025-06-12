@@ -1,8 +1,9 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
-import { Navigation, Scrollbar } from 'swiper/modules';
+import 'swiper/css/free-mode';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Scrollbar } from 'swiper/modules';
 import latestImg1 from '../../assets/images/latest-videos/galaxy-s25-ultra-expectations.webp';
 import latestImg2 from '../../assets/images/latest-videos/cover-1.webp';
 import latestImg3 from '../../assets/images/latest-videos/ces-2025.webp';
@@ -25,6 +26,8 @@ function LatestVideos() {
         navigation={true}
         modules={[Navigation, Scrollbar]}
         className={styles.swiper}
+        spaceBetween={20}
+        slidesPerView={2}
       >
         <SwiperSlide>
           <div className={styles.card}>
