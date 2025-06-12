@@ -23,6 +23,12 @@ function Home() {
           />
         </div>
         <EditorsChoice />
+        <section className="middle-contents">
+          <div className="section-container">
+            <div className="right-side"></div>
+            <div className="left-side"></div>
+          </div>
+        </section>
       </main>
     </Fragment>
   );
