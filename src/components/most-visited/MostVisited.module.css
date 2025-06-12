@@ -1,0 +1,14 @@
+.most_visited > h3 {
+  font-size: 1rem;
+  padding-right: 1rem;
+  border-right: 4px solid red;
+  margin-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  height: 700px;
+  gap: 1rem;
+}
