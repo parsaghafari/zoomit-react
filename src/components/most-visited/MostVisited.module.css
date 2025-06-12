@@ -80,3 +80,11 @@
 .grid_container .time_date span:nth-child(2) i {
   padding-left: 0.5rem;
 }
+
+.grid_container > a > img {
+  transition: transform 0.6s;
+}
+
+.grid_container > a:hover img {
+  transform: scale(1.1);
+}
