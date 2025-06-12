@@ -111,4 +111,5 @@ section {
   background: var(--color-darker);
   box-shadow: -300px 0 0 var(--color-darker);
   padding: 2rem 1.2rem;
+  width: 50%;
 }
