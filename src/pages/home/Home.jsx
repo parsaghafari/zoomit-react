@@ -9,6 +9,7 @@ import ad3 from '../../assets/images/rodeo-ad.gif';
 import ad4 from '../../assets/images/systan-ad.gif';
 import EditorsChoice from '../../components/editors-choice/EditorsChoice';
 import LatestVideos from '../../components/latest-videos/LatestVideos';
+import MostVisited from '../../components/most-visited/MostVisited';
 
 function Home() {
   return (
@@ -36,6 +37,7 @@ function Home() {
                 secondSrc={ad4}
                 secondAlt={'systan.com advertisement'}
               />
+              <MostVisited />
             </div>
             <div className="left-side"></div>
           </div>
