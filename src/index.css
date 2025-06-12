@@ -97,3 +97,18 @@ section {
 .btn:hover {
   opacity: 0.8;
 }
+
+.middle-contents .section-container {
+  display: flex;
+}
+
+.middle-contents .right-side {
+  padding: 1.2rem;
+  width: 50%;
+}
+
+.middle-contents .left-side {
+  background: var(--color-darker);
+  box-shadow: -300px 0 0 var(--color-darker);
+  padding: 2rem 1.2rem;
+}
