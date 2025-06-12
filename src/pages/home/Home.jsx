@@ -12,16 +12,18 @@ function Home() {
     <Fragment>
       <TopBanner />
       <Header />
-      <SecondaryNav />
-      <div className="section-container">
-        <Ads
-          firstSrc={ad1}
-          secondSrc={ad2}
-          firstAlt={'shatel advertisement gif'}
-          secondAlt={'arizzo advertisement gif'}
-        />
-      </div>
-      <EditorsChoice />
+      <main>
+        <SecondaryNav />
+        <div className="section-container">
+          <Ads
+            firstSrc={ad1}
+            secondSrc={ad2}
+            firstAlt={'shatel advertisement gif'}
+            secondAlt={'arizzo advertisement gif'}
+          />
+        </div>
+        <EditorsChoice />
+      </main>
     </Fragment>
   );
 }
