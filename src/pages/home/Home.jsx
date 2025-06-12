@@ -6,6 +6,7 @@ import Ads from '../../components/ads/Ads';
 import ad1 from '../../assets/images/ads/shatel-ad.gif';
 import ad2 from '../../assets/images/ads/arizzo-ad.gif';
 import EditorsChoice from '../../components/editors-choice/EditorsChoice';
+import LatestVideos from '../../components/latest-videos/LatestVideos';
 
 function Home() {
   return (
@@ -25,7 +26,9 @@ function Home() {
         <EditorsChoice />
         <section className="middle-contents">
           <div className="section-container">
-            <div className="right-side"></div>
+            <div className="right-side">
+              <LatestVideos />
+            </div>
             <div className="left-side"></div>
           </div>
         </section>
