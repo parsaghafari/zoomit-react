@@ -1,0 +1,20 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.head h3 {
+  font-size: 1rem;
+  padding-right: 1rem;
+  border-right: 4px solid red;
+}
+
+.head a {
+  font-size: 0.8rem;
+}
+
+.head a i {
+  margin-right: 0.5rem;
+  color: red;
+}
