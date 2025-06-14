@@ -3,6 +3,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar } from 'swiper/modules';
+import gamepadsImg from '../../assets/images/buying-guides/gamepads.jpg';
+import cpusImg from '../../assets/images/buying-guides/cpus.jpg';
+import toothbrushImg from '../../assets/images/buying-guides/toothbrush.jpg';
 import styles from './BuyingGuides.module.css';
 
 function BuyingGuides() {
@@ -31,7 +34,7 @@ function BuyingGuides() {
               <i className="fa-solid fa-fire"></i>
               بهترین دسته بازی برای کامپیوتر [دی 1403]
             </h5>
-            <img src="assets/images/blog/gamepads.jpg" alt="some gamepads" />
+            <img src={gamepadsImg} alt="some gamepads" />
             <div className="time-date">
               <span>
                 <i className="fa-regular fa-clock"></i> 10&prime; مطالعه
@@ -45,10 +48,7 @@ function BuyingGuides() {
         <SwiperSlide>
           <a href="#" className="slider-item">
             <h5>بهترین مسواک برقی بازار [دی 1403]</h5>
-            <img
-              src="assets/images/blog/toothbrush.jpg"
-              alt="electronic toothbrushes"
-            />
+            <img src={toothbrushImg} alt="electronic toothbrushes" />
             <div className="time-date">
               <span>
                 <i className="fa-regular fa-clock"></i> 5&prime; مطالعه
@@ -62,7 +62,7 @@ function BuyingGuides() {
         <SwiperSlide>
           <a href="#" className="slider-item">
             <h5>بهترین پردازنده [دی 1403]</h5>
-            <img src="assets/images/blog/cpus.jpg" alt="some cpus" />
+            <img src={cpusImg} alt="some cpus" />
             <div className="time-date">
               <span>
                 <i className="fa-regular fa-clock"></i> 10&prime; مطالعه
