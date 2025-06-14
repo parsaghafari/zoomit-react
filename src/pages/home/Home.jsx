@@ -12,6 +12,7 @@ import ad6 from '../../assets/images/zoomit-meetup-ad.gif';
 import EditorsChoice from '../../components/editors-choice/EditorsChoice';
 import LatestVideos from '../../components/latest-videos/LatestVideos';
 import MostVisited from '../../components/most-visited/MostVisited';
+import BuyingGuides from '../../components/buying-guides/BuyingGuides';
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
                 secondSrc={ad6}
                 secondAlt={'zoomit meetup advertisement'}
               />
+              <BuyingGuides />
             </div>
             <div className="left-side"></div>
           </div>
