@@ -1,0 +1,9 @@
+.buying_guides {
+  margin-bottom: 3rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
