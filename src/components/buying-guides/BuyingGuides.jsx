@@ -29,13 +29,13 @@ function BuyingGuides() {
         slidesPerView={2}
       >
         <SwiperSlide>
-          <a href="#" className="slider-item">
+          <a href="#" className={styles.slider_item}>
             <h5>
               <i className="fa-solid fa-fire"></i>
               بهترین دسته بازی برای کامپیوتر [دی 1403]
             </h5>
             <img src={gamepadsImg} alt="some gamepads" />
-            <div className="time-date">
+            <div className={styles.time_date}>
               <span>
                 <i className="fa-regular fa-clock"></i> 10&prime; مطالعه
               </span>
@@ -46,10 +46,10 @@ function BuyingGuides() {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="#" className="slider-item">
+          <a href="#" className={styles.slider_item}>
             <h5>بهترین مسواک برقی بازار [دی 1403]</h5>
             <img src={toothbrushImg} alt="electronic toothbrushes" />
-            <div className="time-date">
+            <div className={styles.time_date}>
               <span>
                 <i className="fa-regular fa-clock"></i> 5&prime; مطالعه
               </span>
@@ -60,10 +60,10 @@ function BuyingGuides() {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="#" className="slider-item">
+          <a href="#" className={styles.slider_item}>
             <h5>بهترین پردازنده [دی 1403]</h5>
             <img src={cpusImg} alt="some cpus" />
-            <div className="time-date">
+            <div className={styles.time_date}>
               <span>
                 <i className="fa-regular fa-clock"></i> 10&prime; مطالعه
               </span>

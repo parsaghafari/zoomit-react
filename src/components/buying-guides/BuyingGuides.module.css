@@ -7,3 +7,13 @@
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
+.head h3 {
+  font-size: 1rem;
+  padding-right: 1rem;
+  border-right: 4px solid red;
+}
+
+.head a {
+  font-size: 0.8rem;
+}
