@@ -1,7 +1,6 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
-import 'swiper/css/free-mode';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar } from 'swiper/modules';
 import latestImg1 from '../../assets/images/latest-videos/galaxy-s25-ultra-expectations.webp';
