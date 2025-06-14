@@ -15,16 +15,22 @@ function BuyingGuides() {
           <i className="fa-solid fa-arrow-left"></i>
         </a>
       </div>
-      <div className="slider-container">
-        <button className="scroll-right">
-          <i className="fa-solid fa-angle-right"></i>
-        </button>
-        <div className="slider">
+      <Swiper
+        scrollbar={{
+          hide: true,
+        }}
+        navigation={true}
+        modules={[Navigation, Scrollbar]}
+        className={styles.swiper}
+        spaceBetween={30}
+        slidesPerView={2}
+      >
+        <SwiperSlide>
           <a href="#" className="slider-item">
-            <h4>
+            <h5>
               <i className="fa-solid fa-fire"></i>
               بهترین دسته بازی برای کامپیوتر [دی 1403]
-            </h4>
+            </h5>
             <img src="assets/images/blog/gamepads.jpg" alt="some gamepads" />
             <div className="time-date">
               <span>
@@ -35,8 +41,10 @@ function BuyingGuides() {
               </span>
             </div>
           </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="#" className="slider-item">
-            <h4>بهترین مسواک برقی بازار [دی 1403]</h4>
+            <h5>بهترین مسواک برقی بازار [دی 1403]</h5>
             <img
               src="assets/images/blog/toothbrush.jpg"
               alt="electronic toothbrushes"
@@ -50,8 +58,10 @@ function BuyingGuides() {
               </span>
             </div>
           </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="#" className="slider-item">
-            <h4>بهترین پردازنده [دی 1403]</h4>
+            <h5>بهترین پردازنده [دی 1403]</h5>
             <img src="assets/images/blog/cpus.jpg" alt="some cpus" />
             <div className="time-date">
               <span>
@@ -62,11 +72,8 @@ function BuyingGuides() {
               </span>
             </div>
           </a>
-        </div>
-        <button className="scroll-left">
-          <i className="fa-solid fa-angle-left"></i>
-        </button>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 }
