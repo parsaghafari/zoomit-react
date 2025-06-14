@@ -1,3 +1,8 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Scrollbar } from 'swiper/modules';
 import styles from './BuyingGuides.module.css';
 
 function BuyingGuides() {
