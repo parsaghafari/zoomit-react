@@ -13,6 +13,7 @@ import EditorsChoice from '../../components/editors-choice/EditorsChoice';
 import LatestVideos from '../../components/latest-videos/LatestVideos';
 import MostVisited from '../../components/most-visited/MostVisited';
 import BuyingGuides from '../../components/buying-guides/BuyingGuides';
+import Reviews from '../../components/reviews/Reviews';
 
 function Home() {
   return (
@@ -48,6 +49,7 @@ function Home() {
                 secondAlt={'zoomit meetup advertisement'}
               />
               <BuyingGuides />
+              <Reviews />
             </div>
             <div className="left-side"></div>
           </div>
