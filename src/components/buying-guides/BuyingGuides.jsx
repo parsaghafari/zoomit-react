@@ -25,7 +25,7 @@ function BuyingGuides() {
         navigation={true}
         modules={[Navigation, Scrollbar]}
         className={styles.swiper}
-        spaceBetween={30}
+        spaceBetween={20}
         slidesPerView={2}
       >
         <SwiperSlide>
