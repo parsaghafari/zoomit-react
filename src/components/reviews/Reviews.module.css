@@ -1,0 +1,10 @@
+.reviews {
+  margin-bottom: 3rem;
+}
+
+.reviews > h3 {
+  font-size: 1rem;
+  padding-right: 1rem;
+  border-right: 4px solid red;
+  margin-bottom: 1rem;
+}

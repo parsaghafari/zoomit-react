@@ -7,7 +7,7 @@ function Reviews() {
   return (
     <div className={styles.reviews}>
       <h3>بررسی‌ها</h3>
-      <div className="grid-container">
+      <div className={styles.grid_container}>
         <a href="#">
           <h5>
             <i className="fa-solid fa-fire"></i>لورم ایپسوم متن ساختگی با تولید
